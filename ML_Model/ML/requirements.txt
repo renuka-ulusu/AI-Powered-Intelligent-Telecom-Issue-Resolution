@@ -1,0 +1,24 @@
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.2
+scipy>=1.13.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+xgboost>=2.1.0
+lightgbm>=4.5.0
+catboost>=1.2.7
+joblib>=1.4.2
+
+# Visualization
+matplotlib>=3.9.0
+
+# API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+
+# Jupyter (Optional for EDA)
+notebook>=7.2.0
+ipykernel>=6.29.0

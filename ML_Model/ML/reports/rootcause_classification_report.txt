@@ -1,0 +1,41 @@
+                            precision    recall  f1-score   support
+
+    authentication failure       0.17      0.03      0.04        39
+                bank delay       0.20      0.05      0.08        40
+             billing delay       0.39      0.68      0.49        84
+             codec failure       0.00      0.00      0.00        33
+              coverage gap       0.38      0.79      0.51        77
+      device compatibility       0.00      0.00      0.00        57
+              device issue       0.00      0.00      0.00        19
+    fiber backhaul failure       0.24      0.15      0.18        40
+         improper handover       0.29      0.26      0.28        53
+                 kyc delay       0.45      0.91      0.60        97
+       limited 5g coverage       0.48      0.89      0.63       104
+        network congestion       0.21      0.06      0.09        71
+           network upgrade       0.00      0.00      0.00        24
+            number leakage       0.25      0.02      0.03        55
+           partner failure       0.00      0.00      0.00        23
+     partner network issue       0.12      0.03      0.05        61
+   payment gateway failure       0.29      0.19      0.23        53
+             power failure       0.20      0.03      0.05        32
+      provisioning failure       0.33      0.08      0.13        62
+        radio interference       0.41      0.59      0.49       110
+     roaming configuration       0.47      0.85      0.60       100
+           routing failure       0.44      0.10      0.17        39
+              server delay       0.00      0.00      0.00        42
+sim authentication failure       0.00      0.00      0.00        19
+    sms gateway congestion       0.50      0.86      0.63        96
+    spam detection failure       0.63      0.95      0.76       124
+     spectrum interference       0.00      0.00      0.00        31
+            spectrum issue       0.00      0.00      0.00        24
+          tower congestion       0.45      0.83      0.58        81
+         tower maintenance       0.00      0.00      0.00        19
+              tower outage       0.05      0.03      0.03        38
+     tower upgrade pending       0.44      0.10      0.16        42
+             weak coverage       0.39      0.51      0.44       136
+            weather damage       0.24      0.13      0.17        38
+      weather interference       0.50      0.24      0.33        37
+
+                  accuracy                           0.43      2000
+                 macro avg       0.24      0.27      0.22      2000
+              weighted avg       0.32      0.43      0.34      2000
