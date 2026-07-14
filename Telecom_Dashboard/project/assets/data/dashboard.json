@@ -1,0 +1,57 @@
+{
+  "kpis": {
+    "totalComplaints": 18420,
+    "criticalIssues": 312,
+    "escalatedCases": 87,
+    "aiAccuracy": 94.2
+  },
+  "complaintTrend": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "resolved": [320, 410, 380, 520, 470, 290, 240],
+    "new": [380, 420, 350, 480, 510, 260, 220]
+  },
+  "issueMix": {
+    "labels": ["Call Drop", "Slow Internet", "No Signal", "Voice Distortion", "SIM Activation", "Billing"],
+    "data": [32, 24, 18, 12, 8, 6]
+  },
+  "providerSplit": {
+    "labels": ["Jio", "Airtel", "Vi", "BSNL"],
+    "data": [42, 31, 16, 11]
+  },
+  "networkType": {
+    "labels": ["5G", "4G", "3G", "2G"],
+    "data": [38, 47, 11, 4]
+  },
+  "severityTrend": {
+    "labels": ["W1", "W2", "W3", "W4"],
+    "critical": [12, 18, 9, 14],
+    "high": [28, 22, 31, 25],
+    "medium": [40, 38, 42, 36]
+  },
+  "cityType": {
+    "labels": ["Metro", "Urban", "Semi-Urban", "Rural"],
+    "data": [44, 28, 18, 10]
+  },
+  "aiAccuracyTrend": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+    "data": [88.1, 89.4, 90.2, 91.5, 92.8, 93.6, 94.2]
+  },
+  "towerLoad": {
+    "labels": ["Tower A", "Tower B", "Tower C", "Tower D", "Tower E", "Tower F"],
+    "data": [78, 65, 82, 55, 70, 48]
+  },
+  "recommendations": [
+    { "id": "R-01", "title": "Upgrade backhaul on Tower B", "impact": "High", "effort": "Medium", "desc": "Backhaul utilization consistently above 80% during peak. Upgrade to 10Gbps to reduce slow-internet complaints by ~22%.", "tag": "Capacity" },
+    { "id": "R-02", "title": "Deploy Cell on Wheels at Site 14", "impact": "Critical", "effort": "High", "desc": "Rural cluster reports repeated no-signal events during storms. Temporary CoW will improve coverage until permanent site is commissioned.", "tag": "Coverage" },
+    { "id": "R-03", "title": "Optimize handover parameters in Metro cluster", "impact": "Medium", "effort": "Low", "desc": "Handover failures driving 31% of call drops. Tuning neighbor lists and hysteresis can recover ~14% drop rate.", "tag": "RF Optimization" },
+    { "id": "R-04", "title": "Enable AMR-WB codec on legacy MSC", "impact": "Medium", "effort": "Low", "desc": "Voice distortion complaints concentrated on 3G BSNL leg. Codec upgrade resolves distortion without hardware change.", "tag": "Voice Quality" },
+    { "id": "R-05", "title": "Schedule preventive DG maintenance", "impact": "High", "effort": "Medium", "desc": "Three critical outages in 30 days traced to DG failure. Preventive maintenance reduces MTTR by ~40%.", "tag": "Power" }
+  ],
+  "activity": [
+    { "title": "Critical alert resolved", "body": "Tower C handover failure auto-mitigated by AI optimizer.", "time": "2 min ago" },
+    { "title": "New prediction logged", "body": "P-1010 flagged as Medium severity, no escalation.", "time": "18 min ago" },
+    { "title": "Escalation triggered", "body": "P-1008 escalated to Tier-3 RF team.", "time": "1 hr ago" },
+    { "title": "Model retrained", "body": "AI accuracy improved to 94.2% after weekly retrain.", "time": "3 hr ago" },
+    { "title": "Report exported", "body": "Weekly prediction report exported as PDF.", "time": "5 hr ago" }
+  ]
+}
